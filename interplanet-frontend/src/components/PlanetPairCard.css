@@ -1,0 +1,68 @@
+.pairLink {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Белая скруглённая карточка из ЛР1, настроенная переменными Bootstrap Card */
+.pairCard {
+  --bs-card-border-width: 0;
+  --bs-card-border-radius: 22px;
+  --bs-card-inner-border-radius: 22px;
+  --bs-card-spacer-x: 15px;
+  --bs-card-spacer-y: 15px;
+  --bs-card-bg: #fff;
+  --bs-card-title-color: #262533;
+  height: 100%;
+  min-height: 320px;
+  text-align: left;
+}
+
+.pairCard .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.pairImage {
+  width: 100%;
+  height: 160px;
+  margin-bottom: 15px;
+  border-radius: 16px;
+  background-color: #000;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.pairTitle {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 7px;
+}
+
+.pairInfo {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.3;
+  color: #262533;
+}
+
+.pairFooter {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  font-weight: bold;
+}
+
+.pairColon {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.pairLikes {
+  font-size: 28px;
+  font-weight: bold;
+}
